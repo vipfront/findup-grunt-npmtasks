@@ -18,15 +18,8 @@
   "files": [
     "lib"
   ],
-  "keywords": [],
-  "devDependencies": {
-    "grunt-contrib-jshint": "^0.10.0",
-    "grunt-contrib-nodeunit": "^0.3.3",
-    "grunt-contrib-watch": "^0.6.1",
-    "load-grunt-tasks": "^0.4.0",
-    "time-grunt": "^0.3.1",
-    "jshint-stylish": "^0.2.0"
-  },
+  "keywords": ["grunttool", "findup"],
+  "devDependencies": {},
   "scripts": {
     "test": "grunt"
   },
