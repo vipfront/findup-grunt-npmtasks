@@ -1,0 +1,36 @@
+{
+  "name": "findup-grunt-npmtasks",
+  "version": "0.1.0",
+  "main": "lib/findup-grunt-npmtasks.js",
+  "description": "findup your npm tasks base on grunt",
+  "homepage": "https://github.com/vipfront/findup-grunt-npmtasks",
+  "bugs": "https://github.com/vipfront/findup-grunt-npmtasks/issues",
+  "author": {
+    "name": "vipfront",
+    "email": "tom.wang.sz@qq.com",
+    "url": "https://github.com/vipfront/findup-grunt-npmtasks"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vipfront/findup-grunt-npmtasks"
+  },
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "keywords": [],
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt-contrib-watch": "^0.6.1",
+    "load-grunt-tasks": "^0.4.0",
+    "time-grunt": "^0.3.1",
+    "jshint-stylish": "^0.2.0"
+  },
+  "scripts": {
+    "test": "grunt"
+  },
+  "dependencies": {
+    "findup-sync": "^0.1.3"
+  }
+}
