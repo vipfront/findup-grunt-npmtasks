@@ -1,14 +1,15 @@
-# findup-grunt-npmtasks [![Build Status](https://secure.travis-ci.org/vipfront/findup-grunt-npmtasks.png?branch=master)](http://travis-ci.org/vipfront/findup-grunt-npmtasks)
+# findup-grunt-npmtasks 
 
-findup your npm tasks base on grunt
+Lookup Npm Tasks recursively in Grunt
 
 ## Getting Started
-Install the module with: `npm install findup-grunt-npmtasks --save-dev`
+Install the module with: 
+`npm install findup-grunt-npmtasks --save-dev`
 
 ```javascript
 // use in Gruntfile.js
 module.exports = function(grunt) {
-    // here is all, easy? ah
+    // That's all, so easy! aha
     require('findup-grunt-npmtasks')(grunt);
 
     grunt.initConfig({
