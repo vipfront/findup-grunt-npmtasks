@@ -11,7 +11,8 @@
 module.exports = function(grunt) {
     // 就是这么简单，一次调用即可
     // 第二个参数是可选的，默认仅从当前目录开始向上查找插件。第二个参数从v0.3.0版本开始提供
-    // 如果指定了多个搜索路径，则会按先后顺序搜索，找到后立即停止搜索，你可以使用`grunt -v`来查看最终加载的插件文件
+    // 如果指定了多个搜索路径，则会按先后顺序搜索，找到后立即停止搜索，请注意，当前目录路径会默认加到path配置最前面。你可以使用`grunt -v`来查看最终加载的插件文件
+    // 针对一个具体的目录，会先在其中的node_modules目录中查找插件，接着直接在目录下查找插件，找到即止
     require('findup-grunt-npmtasks')(grunt, {
     	path: ['pathA', 'pathB']
     });
@@ -26,7 +27,7 @@ module.exports = function(grunt) {
 
 ## ChangeLog
 v0.1.0  
-1、猴子出世了  
+1、猴子出世  
 v0.3.0  
 1、增加opt.path选项支持
 
