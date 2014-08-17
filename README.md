@@ -1,6 +1,6 @@
 # findup-grunt-npmtasks 
 
-该模块通过重写`grunt.loadNpmTasks`方法，实现自动向上查找`grunt`插件，这样可以实现多项目共用`grunt`插件，避免重复下载。该模块支持自定义查找目录
+通过重写`grunt.loadNpmTasks`方法，实现自动向上查找`grunt`插件，达到多项目共用`grunt`插件，避免重复下载的目的。该模块支持自定义查找目录
 
 ## Getting Started
 使用下面的命令安装该模块:   
